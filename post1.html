@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Name</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1'/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' type='text/css' href='default.css'>
+</head>
+<body>
+    <div class="nav-wrapper">
+        <div class="dots-wrapper">
+           <div id="dot-1" class="browser-dot"></div>
+           <div id="dot-2" class="browser-dot"></div>
+           <div id="dot-3" class="browser-dot"></div>
+        </div>
+
+        <ul id="navigation">
+            <!-- <li><a href="#">Contact</a></li> -->
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <h2>論壇網站</h2>
+        <img class="photo" src="images/discord_like_website/discord_like_website.jpg">
+
+
+        <h3>一、簡介</h3>
+        <p>
+            這是由 Django 框架寫成的一個類似 discord 的論壇網站，此論壇網站提供一個互相交流的平台，<br>
+            成員之間可以自行成立聊天室並針對感興趣的主題互相討論，且能夠得知用戶最新的訊息。
+        </p>
+
+        <div>
+            <h3>二、功能說明</h3>
+            <img class="photo" src="images/discord_like_website/function_partition.jpg">
+            <p>
+                紅色方框為主題區，呈現所有聊天室的主題標籤，點按即可篩選並呈現特定標籤的聊天室，點按More可以進入主題標籤篩選畫面；<br>
+                綠色方框為聊天室，顯示所有聊天室，包含聊天室創立人、標題、參加成員數、成立時間、主題標籤；<br>
+                紫色方框為動態牆，顯示所有即時的動態訊息，包含訊息發起人、訊息時間、回應的聊天室、訊息內容；<br>
+                藍色方框為搜尋框，搜尋關鍵字以尋找聊天室。
+            </p>
+
+            <div>
+                <div>
+                    <h5>A. 主題區</h5>
+                    <img class="photo" src="images/discord_like_website/function_partition_topic.jpg">
+                    <p>紅色方框為主題區，呈現所有聊天室的主題標籤，點按即可篩選並呈現特定標籤的聊天室，點按More可以進入主題標籤篩選畫面。</p>
+                    <p>
+                        <b>操作說明</b><br>
+                        Step1：主題標籤篩選<br>
+                        點按More可以進入主題標籤篩選畫面，如下圖。可以輸入或點擊主題標籤，篩選並呈現特定標籤的聊天室。
+                        <img class="photo" src="images/discord_like_website/topic_filiter.jpg">
+                        Step2：呈現篩選之特定主題標籤聊天室<br>
+                        下圖呈現篩選JavaScript主題標籤之畫面。
+                        <img class="photo" src="images/discord_like_website/topic_filiter_javascript.jpg">
+                    </p>    
+                </div>
+                
+                <div>
+                    <h5>B. 聊天室</h5>
+                    <img class="photo" src="images/discord_like_website/function_partition_room.jpg">
+                    <p>綠色方框為聊天室，顯示所有聊天室，包含聊天室創立人、標題、參加成員數、成立時間、主題標籤。</p>
+                    <p>
+                        <b>操作說明</b><br>
+                        Step1：點選聊天室<br>
+                        點按標題可以查看聊天室內容。
+                        <img class="photo" src="images/discord_like_website/discord_like_website_room.jpg">
+                        Step2：呈現聊天室內容<br>
+                        下圖呈現特定聊天室之畫面，包含聊天訊息、訊息資訊和聊天成員。
+                        <img class="photo" src="images/discord_like_website/room.jpg">
+                    </p> 
+                </div>
+                
+                <div>
+                    <h5>C. 動態牆</h5>
+                    <img class="photo" src="images/discord_like_website/function_partition_activity.jpg">
+                    <p>紫色方框為動態牆，顯示所有即時的動態訊息，包含訊息發起人、訊息時間、回應的聊天室、訊息內容。</p>
+                    <p>
+                        <b>操作說明</b><br>
+                        1. 點按回應的聊天室<br>
+                        點按回應的聊天室可以跳至特定的聊天室。<br>
+                        2. 點按訊息發起人<br>
+                        點按訊息發起人即可查看訊息發起人之個人資訊。<br>
+                        如下圖，包含個人大頭照、介紹、建立的聊天室以及近期動態。
+                        <img class="photo" src="images/discord_like_website/personal_profile.jpg">
+                    </p>
+                </div>
+
+                <div>
+                    <h5>D. 搜尋框</h5>
+                    <img class="photo" src="images/discord_like_website/function_partition_searchbar.jpg">
+                    <p>藍色方框為搜尋框，搜尋關鍵字以尋找聊天室。</p>
+                </div>
+            </div>   
+        </div>
+        
+        <div>
+            <h3>三、帳號管理</h3>
+            <img class="photo" src="images/discord_like_website/login_signup.jpg">
+            <p>登入已有帳號、註冊新帳號以及修改個人檔案</p>
+            <p>
+                <b>登入</b><br>
+                <img class="photo" src="images/discord_like_website/login.jpg">
+                <b>註冊</b><br>
+                <img class="photo" src="images/discord_like_website/signup.jpg">
+                <b>修改個人檔案</b><br>
+                <img class="photo" src="images/discord_like_website/profile_editing.jpg">
+            </p>
+        </div>
+    </div>
+</body>
+</html>
