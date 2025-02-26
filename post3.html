@@ -61,6 +61,7 @@
         <h5>Method</h5>
         <p>Our own token tagger</p>
         <p>
+            First, we feed both an errorful sentence and the corrected sentence into ERRANT to generate
             a list of span level edit operations, which include the type of error, the location where it
             occurred, and the corrected content. Then we convert the output of ERRANT (span level
             edits) into edit tags (token level edit) through our own tag generator.
